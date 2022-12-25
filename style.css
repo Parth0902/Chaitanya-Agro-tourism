@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+
+
+body{
+     width: 100%;
+}
+
+#navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    background-color: #50C878;
+    box-shadow: 0 2px 15px rgb(0,0,0.06);
+    position: sticky;
+    top:0px;
+    margin-bottom:2px; 
+
+}
+
+#navbar .sec1{
+    margin-left: 30px;
+}
+#navbar .sec1 img{
+    height: 50px;
+}
+
+#navbar .sec2 ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+#navbar .sec2 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+#navbar .sec2 li{
+
+    padding: 30px;
+}
+
+#navbar .sec2{
+    margin-right: 30px;
+}
+
+
+#intro{
+   
+    margin-top: 42px;
+    box-shadow:20px 20px 34px rgb(0,0,0,0.33);
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    background-color: #f5fcf7;
+    border-radius: 24px;
+    padding: 0 60px;
+    margin: 0 80px;
+    margin-bottom: 42px;
+
+}
+
+#intro .section1{
+    max-width: 50%;
+    padding-right: 40px;
+    
+}
+
+#intro .section1 h2{
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    color:#C46200;
+}
+
+#intro .section1 h4{
+    font-size:28px;
+    font-weight: 400;
+    padding-bottom: 10px;
+
+}
+
+#intro .section1 p{
+    font-size:18px;
+    font-weight: 400;
+    padding-bottom: 10px;
+
+}
+
+#intro .section2{
+  
+    height: 500px;
+    box-shadow:20px 20px 34px rgb(0,0,0,0.33) ;
+}
+
+#activities{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 80px;
+    flex-wrap: wrap;
+}
+
+#activities .box{
+    width: 140px;
+    padding:0 14px;
+    height: 16vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color:#a7d49b; */
+    box-shadow:20px 20px 34px rgb(0,0,0.2,0.33) ;
+    border-radius: 4px;
+    background-color: #d1e8f2;
+}
+
+#activities .box h3{
+    font-size: 20px;
+    color: #0d338a;
+    
+    
+}
+
+#activities .box button{
+    margin-top: 12px;
+    padding: 2px 7px;
+    border-radius: 6px;
+    border: none;
+    /* outline: none; */
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #f0e459;
+}
+
+#activities .box button:hover{
+    cursor:pointer;
+    background-color: #50C878;
+
+}
+
+#location{
+    height: 100vh;
+}
