@@ -55,7 +55,7 @@ body{
 }
 #navbar .sec2 li{
 
-    padding: 30px;
+    padding: 20px;
 }
 
 #navbar .sec2{
@@ -106,13 +106,20 @@ body{
     font-size: 22px;
     font-weight: 400;
     padding-bottom: 10px;
-
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 #intro .section2{
-  
-    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     box-shadow:20px 20px 34px rgb(0,0,0,0.33) ;
+}
+
+#intro .section2 img{
+    height: 100%;
 }
 
 #activities{
@@ -255,6 +262,7 @@ body{
     box-shadow:20px 20px 34px rgb(0,0,0,0.23) ;
     margin: 15px 0;
     position: relative;
+  
 }
 
 .pro:hover{
@@ -447,3 +455,224 @@ footer .copyright{
 }
 
 /* media queires */
+
+@media(max-width:1631px)
+{
+    #intro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #intro .section1 {
+        min-width: 100%;
+        padding-right: 40px;
+      
+    }
+    #intro .section1 h2{
+        text-align: center;
+    }
+    #intro .section1 h4{
+        text-align: center;
+    }
+
+    #intro .section2 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 500px;
+        box-shadow: 20px 20px 34px rgb(0,0,0,0.33);
+    }
+
+}
+
+@media(max-width:1400px)
+{
+    
+
+    #intro .section1 {
+        min-width: 50%;
+        padding-right: 40px;
+      
+    }
+    #intro .section1 h2{
+        text-align: center;
+        font-size: 30px;
+    }
+    #intro .section1 h4{
+        text-align: center;
+        font-size: 25px;
+    }
+    #intro .section1 p{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    #intro .section2{
+        height: 300px;
+
+    }
+    
+    #intro .section2 img{
+        height: 300px;
+    }
+
+}
+
+@media(max-width:1177px)
+{
+    #navbar .sec1 img {
+        height: 110px;
+    }
+    #intro {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    #intro .section1{
+        min-width: 100%;
+    }
+    #intro .section1 h2{
+        font-size: 32px;
+        text-align:center;
+    }
+    
+    #intro .section1 h4{
+        font-size: 28px;
+    }
+    #intro .section1 p{
+        font-size: 22px;
+    } 
+
+    #intro .section2 {
+        height: 200px;
+    }
+    
+    #intro .section2 img{
+        height:200px;
+    }
+    #activities .box h3 {
+        font-size: 14px;
+        color: #0d338a;
+    }
+
+    #activities .box {
+        width: 19%;
+        
+        height: 18vh;
+        
+    
+    }
+
+    #mid .section1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #mid .section2{
+        min-width: 80%;
+    }
+
+    #mid .section2 p{
+        font-size: 22px;
+    }
+  
+    
+
+}
+
+
+@media(max-width:1024px)
+{
+    #intro .section1 h2{
+        font-size: 28px;
+        text-align:center;
+    }
+    
+    #intro .section1 h4{
+        font-size: 24px;
+    }
+    #intro .section1 p{
+        font-size: 18px;
+    }
+    #activities .box {
+        width: 19%;
+        height: 24vh;
+        
+    }
+   
+    #mid .section2 p{
+        font-size: 18px;
+    }
+
+}
+
+
+@media(max-width:900px)
+{
+    #navbar .sec1 img {
+        height: 160px;
+    }
+    #intro .section1 h2 {
+        font-size: 30px;
+        font-weight: 700;
+        padding-bottom: 10px;
+        color: #C46200;
+    }
+
+    #intro .section1 p {
+        font-size: 20px;
+        
+    }
+    #intro .section1 {
+        min-width: 100%;
+        padding-right: 0px;
+    }
+
+    #intro .section2 {
+        height: 300px;
+        box-shadow: 20px 20px 34px rgb(0,0,0,0.33);
+        
+    }
+    #intro .section2 img {
+       
+      height: 300px;
+
+    }
+
+    #activities .box h3 {
+        font-size: 14px;
+        color: #0d338a;
+    }
+
+    #activities .box {
+        width: 18%;
+        
+        height: 12vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* background-color: #a7d49b; */
+        box-shadow: 20px 20px 34px rgb(0,0,0.2,0.33);
+        border-radius: 4px;
+        /* background-color: #d1e8f2; */
+        text-align: center;
+    }
+
+    #mid .section1{
+        display: flex;
+        justify-content: center;
+    }
+    #mid .section2 p {
+        font-size: 20px;
+        padding-bottom: 20px;
+        
+        
+    }
+}
+
