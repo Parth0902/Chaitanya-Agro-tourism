@@ -19,22 +19,31 @@ body{
     height: 12vh;
     background-color: #50C878;
     box-shadow: 0 2px 15px rgb(0,0,0.06);
-    position: sticky;
-    top:0px;
-    margin-bottom:2px; 
+    /* position: sticky;
+    top:0px; */
+    margin-bottom:25px; 
 
 }
 
 #navbar .sec1{
+    display: flex;
+    align-items: center;
     margin-left: 30px;
 }
+
+#navbar .sec1{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
 #navbar .sec1 img{
-    height: 50px;
+    height: 160px;
 }
 
 #navbar .sec2 ul{
     display: flex;
     list-style: none;
+
     
 }
 
@@ -56,24 +65,28 @@ body{
 
 #intro{
    
-    margin-top: 42px;
+    margin-top: 72px;
     box-shadow:20px 20px 34px rgb(0,0,0,0.33);
     display: flex;
-    height: 80vh;
+    height: 90vh;
     align-items: center;
     background-color: #f5fcf7;
     border-radius: 24px;
     padding: 0 60px;
     margin: 0 80px;
     margin-bottom: 42px;
+    justify-content: space-between;
+    flex-wrap: wrap;
 
 }
 
 #intro .section1{
-    max-width: 50%;
+    max-width: 40%;
     padding-right: 40px;
     
 }
+
+    
 
 #intro .section1 h2{
     font-size: 50px;
@@ -90,7 +103,7 @@ body{
 }
 
 #intro .section1 p{
-    font-size:18px;
+    font-size: 22px;
     font-weight: 400;
     padding-bottom: 10px;
 
@@ -107,12 +120,34 @@ body{
     justify-content: space-between;
     margin: 0 80px;
     flex-wrap: wrap;
+    margin-bottom: 90px;
+    
+
+}
+
+#intro-activity{
+    margin-top: 50px;
+    margin-bottom: 18px;
+}
+#intro-activity h2{
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 15px;
+
+}
+
+#intro-activity p{
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 15px;
+    
+
 }
 
 #activities .box{
-    width: 140px;
+    width: 12%;
     padding:0 14px;
-    height: 16vh;
+    height: 22vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -120,9 +155,15 @@ body{
     /* background-color:#a7d49b; */
     box-shadow:20px 20px 34px rgb(0,0,0.2,0.33) ;
     border-radius: 4px;
-    background-color: #d1e8f2;
+    /* background-color: #d1e8f2; */
+    text-align: center;
 }
 
+#activities .box img{
+    height: 70px;
+    width: 100px;
+    padding-bottom: 8px;
+}
 #activities .box h3{
     font-size: 20px;
     color: #0d338a;
@@ -147,6 +188,262 @@ body{
 
 }
 
-#location{
-    height: 100vh;
+/* mid section */
+
+#mid{
+  
+    display: flex;
+    flex-wrap: wrap;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #088178;
+    border-radius: 25px;
+    box-shadow:20px 20px 34px rgb(0,0,0.2,0.33) ;
+    margin:0 86px;
+    
+} 
+
+#mid .section2{
+    width:40%;
 }
+#mid .section2 p{
+    font-size: 24px;
+    padding-bottom: 30px;
+
+}
+#mid .section1 img{
+    width: 40%;
+    
+}
+
+
+
+/* activities */
+#product1{
+    text-align: center;
+    margin: 85px 40px;
+    
+    
+}
+
+#product1 h2{
+    font-size: 50px;
+    
+    padding-bottom: 15px;
+}
+
+
+#product1 p{
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+
+.pro-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top:20px ;
+    flex-wrap: wrap;
+}
+.pro{
+    width:23%;
+    min-width:250px;
+    padding: 10px 12px;
+    border:1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow:20px 20px 34px rgb(0,0,0,0.23) ;
+    margin: 15px 0;
+    position: relative;
+}
+
+.pro:hover{
+    box-shadow:20px 20px 34px rgb(0,0,0,0.33) ;
+}
+
+.des{
+    
+    padding: 10px 0;;
+}
+
+
+.pro .des p{
+    margin-top: 6px;
+    font-size: 15px;
+    text-align: start;
+}
+
+.pro .des h5{
+padding-top: 7px;
+color: #1a1a1a;
+font-size: 20px;
+text-align: start;
+}
+
+
+.pro .des h4{
+    padding-top: 6px;
+    font-size:20px;
+    font-weight: 700;
+
+    
+}
+
+.pro .des h4 a{
+    text-decoration: none;
+    color: #088178;
+    margin-top: 12px;
+    text-align: center;
+}
+
+.shirt{
+    width: 100%;
+    border-radius:20px;
+    height: 250px;
+    
+}
+
+.img3{
+    height: 22px;
+    width: 23px;
+    position:absolute;
+    bottom: 20px;
+    right: 40px;
+    
+}
+
+
+
+
+/* location */
+#location{
+    margin-top: 190px;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    background-color:#f5fcf7;
+    margin: 0 80px;
+    padding-top: 150px;
+    border-radius: 12px;
+    box-shadow:20px 20px 34px rgb(0,0,0.2,0.33) ;
+    flex-wrap: wrap;
+    padding-left: 60px;
+    padding-right: 60px;
+    /* flex-direction: column;
+    align-items: center; */
+    flex-wrap: wrap;
+}
+
+#location h1{
+    font-size: 50px;
+    font-weight: 600;
+    color:#89ABE3FF;
+}
+#location iframe{
+    height: 450px;
+    width:800px;
+    border-radius: 18px;
+    box-shadow:20px 20px 34px rgb(0,0,0.2,0.33) ;
+    margin-top: 20%;
+}
+
+#location .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#location .info h1{
+    font-size: 50px;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+ 
+#location .info h2{
+    font-size: 34px;
+    margin-bottom:8px;
+    color: #00D4A6;
+    
+}
+
+#location .info h4{
+    font-size: 24px;
+    margin-left: 40px;
+    color: #603F83FF;
+
+}
+
+#location .info h6{
+    font-size: 20px;
+    margin-left: 60px;
+    color: grey;
+}
+
+
+  /* footer */
+
+  footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 80px;
+    background-color:#B2BEB5;
+}
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    width: 25%;
+}
+
+footer .logo{
+    margin-bottom: 30px;
+    height: 80px;
+}
+
+footer h4{
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+footer p{
+    font-size: 18px;
+    margin:0 0 8px 0;
+}
+
+footer a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom:10px;
+}
+
+footer .follow{
+    margin-top: 20px;
+}
+
+footer  .follow i{
+    color:#465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .row img{
+    border:1px solid #088178;
+    border-radius: 6px;
+
+}
+
+footer .install img{
+    margin: 10px 0 15px 0;
+}
+
+footer .copyright{
+    
+    
+    text-align: center;
+    width: 100%;
+}
+
+/* media queires */
