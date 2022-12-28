@@ -392,6 +392,7 @@ text-align: start;
   footer{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-between;
     padding: 30px 80px;
     background-color:#B2BEB5;
@@ -403,6 +404,7 @@ footer .col{
     align-items: flex-start;
     margin-bottom: 20px;
     width: 25%;
+    flex-wrap: wrap;
 }
 
 footer .logo{
