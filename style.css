@@ -125,7 +125,7 @@ body{
 #activities{
     display: flex;
     justify-content: space-between;
-    margin: 0 80px;
+    margin: 0 190px;
     flex-wrap: wrap;
     margin-bottom: 90px;
     
@@ -152,7 +152,7 @@ body{
 }
 
 #activities .box{
-    width: 12%;
+    width: 13%;
     padding:0 14px;
     height: 22vh;
     display: flex;
@@ -678,3 +678,99 @@ footer .copyright{
     }
 }
 
+
+/* about page */
+
+#Entry{
+    background-image: url(imgs/banner/banner1.png);
+    height: 30vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 15px rgb(0,0,0.06);
+
+}
+#Entry h2{
+    color: white;
+    font-size: 82px;
+    line-height: 70px;
+}
+
+#about-intro{
+    height: 70vh;
+    margin:20px 86px;
+    display: flex;
+    
+    padding: 40px 140px;
+    background-color: #FFDE59;
+    box-shadow: 20px 20px 34px rgb(0,0,0,0.33);
+}
+
+#about-intro .section1{
+    width: 40%;
+}
+
+#about-intro .section1 h4{
+    font-size: 40px;
+    font-weight: 300;
+    padding-bottom: 30px;
+
+}
+#about-intro .section1 p{
+    color: rgb(54, 53, 53);
+    font-size: 30px;
+    padding-bottom: 30px;
+
+}
+
+#about-banner2{
+    background-image: url(imgs/banner/banner2.png);
+    height: 30vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    box-shadow: 0 2px 15px rgb(0,0,0.06);
+    margin: 50px 0;
+}
+#about-banner2 h2{
+    color: white;
+    font-size: 82px;
+    line-height: 70px;
+   
+
+}
+
+
+#fun .box img{
+    height: 120px;
+}
+
+#fun .box h4{
+font-size: 25px;
+font-weight: 500;
+}
+
+#fun .box{
+  
+width: 12%;
+height: 22vh;
+background-color: white;
+margin: 30px 86px;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+box-shadow: 20px 20px 34px rgb(0,0,0,0.33);
+}
+
+#fun {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    
+}
