@@ -691,6 +691,7 @@ footer .copyright{
     box-shadow: 0 2px 15px rgb(0,0,0.06);
 
 }
+
 #Entry h2{
     color: white;
     font-size: 82px;
@@ -699,7 +700,7 @@ footer .copyright{
 
 #about-intro{
     height: 70vh;
-    margin:20px 86px;
+    margin:20px 26px;
     display: flex;
     
     padding: 40px 140px;
