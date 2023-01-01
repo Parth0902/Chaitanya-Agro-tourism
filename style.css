@@ -324,67 +324,7 @@ text-align: start;
 
 
 /* location */
-#location{
-    margin-top: 190px;
-    height: 100vh;
-    display: flex;
-    justify-content: space-between;
-    background-color:#f5fcf7;
-    margin: 0 80px;
-    padding-top: 150px;
-    border-radius: 12px;
-    box-shadow:20px 20px 34px rgb(0,0,0.2,0.33) ;
-    flex-wrap: wrap;
-    padding-left: 60px;
-    padding-right: 60px;
-    /* flex-direction: column;
-    align-items: center; */
-    flex-wrap: wrap;
-}
 
-#location h1{
-    font-size: 50px;
-    font-weight: 600;
-    color:#89ABE3FF;
-}
-#location iframe{
-    height: 450px;
-    width:800px;
-    border-radius: 18px;
-    box-shadow:20px 20px 34px rgb(0,0,0.2,0.33) ;
-    margin-top: 20%;
-}
-
-#location .info{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-#location .info h1{
-    font-size: 50px;
-    padding-bottom: 15px;
-    margin-bottom: 30px;
-}
- 
-#location .info h2{
-    font-size: 34px;
-    margin-bottom:8px;
-    color: #00D4A6;
-    
-}
-
-#location .info h4{
-    font-size: 24px;
-    margin-left: 40px;
-    color: #603F83FF;
-
-}
-
-#location .info h6{
-    font-size: 20px;
-    margin-left: 60px;
-    color: grey;
-}
 
 
 
