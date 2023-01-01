@@ -49,17 +49,40 @@ body{
 
 #navbar .sec2 a{
     text-decoration: none;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 25px;
+    font-weight: 700;
     color: white;
 }
 #navbar .sec2 li{
 
     padding: 20px;
+    
 }
 
 #navbar .sec2{
     margin-right: 30px;
+}
+
+#navbar li a:hover,
+#navbar li a.active
+{
+    color: rgb(185, 30, 247);
+    font-size: 35px;
+    font-weight: 700;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after{
+
+    content: "";
+    width:30%;
+    height:2px;
+    background:white;
+    position: absolute;
+    bottom: -4px;
+    left:20px;
+
+
 }
 
 
