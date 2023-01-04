@@ -12,77 +12,104 @@ body{
      width: 100%;
 }
 
+
+#logo{
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    align-items: center;
+    /* background-color: #E5FFF7; */
+    color:green;
+}
+
+#logo img{
+    height:120px ;
+    padding-right: 30px;
+}
+
+#logo span{
+   color: orange;
+}
+
+#logo h3{
+    font-size: 40px;
+}
+
+
+
 #navbar{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 12vh;
-    background-color: #50C878;
-    box-shadow: 0 2px 15px rgb(0,0,0.06);
-    /* position: sticky;
-    top:0px; */
-    margin-bottom:25px; 
-
-}
-
-#navbar .sec1{
+    height: 10vh;
+    /* background-color: #28FF85; */
     display: flex;
+    justify-content: center;
     align-items: center;
-    margin-left: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
-#navbar .sec1{
-    font-size: 20px;
-    font-weight: 500;
-    color: rgb(0, 0, 0);
-}
-#navbar .sec1 img{
-    height: 160px;
-}
-
-#navbar .sec2 ul{
-    display: flex;
+#navbar ul {
     list-style: none;
+    display: flex;
 
-    
+
 }
 
-#navbar .sec2 a{
+#navbar ul li{
+    padding: 0 15px;
+}
+#navbar ul li a{
     text-decoration: none;
-    font-size: 25px;
-    font-weight: 700;
+    font-size: 28px;
+    font-weight: 600;
+    color: #101820FF;
+}
+
+#hero{
+
+            width:100%;
+            height:80vh;
+            display: grid;
+            place-items: center;
+}
+
+
+#hero .slider{
+    width:100%;
+    height:100%;
+    background-image: url("/imgs/slider/i1.jpg");
+    background-size: 100% 100%;
+    animation: changeImage 20s linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+} 
+
+.slider h2{
     color: white;
-}
-#navbar .sec2 li{
-
-    padding: 20px;
-    
-}
-
-#navbar .sec2{
-    margin-right: 30px;
-}
-
-#navbar li a:hover,
-#navbar li a.active
-{
-    color: rgb(185, 30, 247);
-    font-size: 35px;
+    font-size: 80px;
     font-weight: 700;
+    margin-top: 26%;
 }
 
-#navbar li a.active::after,
-#navbar li a:hover::after{
+.slider h4{
+    font-size: 40px;
+    color:white;
+}
 
-    content: "";
-    width:30%;
-    height:2px;
-    background:white;
-    position: absolute;
-    bottom: -4px;
-    left:20px;
-
-
+@keyframes changeImage{
+    0%{
+        background-image: url("imgs/slider/paolo-nicolello-2gOxKj594nM-unsplash.jpg");
+    }
+    25%{
+        background-image: url("imgs/slider/fernando-alvarez-rodriguez-M7GddPqJowg-unsplash.jpg");
+    }
+    50%{
+        background-image: url("imgs/slider/saad-khan-I5c9i-hooag-unsplash.jpg");
+    }
+    75%{
+        background-image: url("imgs/slider/valeriia-bugaiova-_pPHgeHz1uk-unsplash.jpg");
+    }
 }
 
 
@@ -227,9 +254,9 @@ body{
     height: 80vh;
     align-items: center;
     justify-content: center;
-    background-color: #088178;
+    background-color:#88FFC3	;
     border-radius: 25px;
-    box-shadow:20px 20px 34px rgb(0,0,0.2,0.33) ;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; ;
     margin:0 86px;
     
 } 
