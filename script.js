@@ -1,3 +1,5 @@
+// Image slidder
+
 let flag=0;
 const controller=(x)=>
 {
@@ -32,6 +34,7 @@ const slideshow=(num)=>
 (()=>{
     slideshow(0);
 })();
+
 
 
 

@@ -661,23 +661,13 @@ footer .copyright{
 
 /* about page */
 
-#Entry{
-    background-image: url(imgs/banner/banner1.png);
-    height: 20vh;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 20px;
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-    border-radius: 15px;
-    z-index: -1;
-}
+
 
 #Entry h2{
-    color: white;
-    font-size: 60px;
-    line-height: 70px;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    padding: 30px 0;
 }
 
 #about-intro{
@@ -685,8 +675,8 @@ footer .copyright{
     margin:20px 26px;
     display: flex;
     padding: 40px 40px;
-    background-color: #FFDE59;
-
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: #ececec;
 }
 
 #about-intro .section1{
@@ -710,20 +700,14 @@ footer .copyright{
 
 
 #about-banner2{
-    background-image: url(imgs/banner/banner2.png);
-    height: 30vh;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-size: cover;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
-    margin: 50px 0;
+ height: 100%;
+ width: 100%;
 }
 #about-banner2 h2{
-    color: white;
-    font-size: 82px;
-    line-height: 70px;
+    color: black;
+    font-size: 40px;
+    padding: 30px 0;
+    text-align: center;
    
 
 }
@@ -733,6 +717,8 @@ footer .copyright{
     height: 120px;
 }
 
+
+
 #fun .box h4{
 font-size: 25px;
 font-weight: 500;
@@ -740,7 +726,7 @@ font-weight: 500;
 
 #fun .box{
   
-width: 12%;
+width: 180px;
 height: 22vh;
 background-color: white;
 margin: 30px 86px;
@@ -755,5 +741,105 @@ box-shadow: 20px 20px 34px rgb(0,0,0,0.33);
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-      
+    background-color:#faf9f9 ;
+    padding-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
+
+
+
+#img-gal{
+    height: 100vh;
+}
+
+
+#img-gal h2{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    padding: 40px 0;
+}
+
+#img-gal h3{
+    font-size: 24px;
+    text-align: center;
+    font-weight: 400;
+    padding-bottom: 70px;
+}
+
+#gallery{
+  display: flex;
+  padding: 0  50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper{
+    display: flex;
+    max-width: 1200px;
+    position: relative;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+  }
+  .wrapper i{
+    top: 50%;
+    height: 44px;
+    width: 44px;
+    color: #343F4F;
+    cursor: pointer;
+    font-size: 1.15rem;
+    position: absolute;
+    text-align: center;
+    line-height: 44px;
+    background: black;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.1s linear;
+  }
+  .wrapper i:active{
+    transform: translateY(-50%) scale(0.9);
+  }
+  .wrapper i:hover{
+    background: #f2f2f2;
+  }
+  .wrapper i:first-child{
+    left: -22px;
+    display: none;
+  }
+  .wrapper i:last-child{
+    right: -22px;
+  }
+  .wrapper .carousel{
+    font-size: 0px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+  }
+  .carousel.dragging{
+    cursor: grab;
+    scroll-behavior: auto;
+  }
+  .carousel.dragging img{
+    pointer-events: none;
+  }
+  .carousel img{
+    height: 340px;
+    object-fit: cover;
+    user-select: none;
+    margin-left: 14px;
+    width: calc(100% / 3);
+  }
+  .carousel img:first-child{
+    margin-left: 0px;
+  }
+  @media screen and (max-width: 900px) {
+    .carousel img{
+      width: calc(100% / 2);
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .carousel img{
+      width: 100%;
+    }
+  }

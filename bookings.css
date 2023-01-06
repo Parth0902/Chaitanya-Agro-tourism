@@ -1,184 +1,168 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,700;1,900&display=swap');
+
 
 *{
-    margin: 0px;
-    padding:0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: 'League Spartan', sans-serif;
 }
 
-
-body{
-     width: 100%;
-}
-
-#logo{
-    display: flex;
-    justify-content: center;
-    height: 10vh;
-    align-items: center;
-    /* background-color: #E5FFF7; */
-    color:green;
-}
-
-#logo img{
-    height:100%;
-    padding-right: 30px;
-}
-
-#logo span{
-   color: orange;
-}
-
-#logo h3{
-    font-size: 40px;
-}
 
 
 
 #navbar{
     height: 10vh;
-    /* background-color: #28FF85; */
+    
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    margin-bottom: 10px;
+   
+}
+#navbar .logo
+{
+    display: flex;
     align-items: center;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    width: 45%;
 }
 
-#navbar ul {
-    list-style: none;
-    display: flex;
-
-
-}
-
-#navbar ul li{
+#navbar .logo img{
+    height: 100%;
     padding: 0 15px;
 }
-#navbar ul li a{
+
+#navbar .logo h2{
+    font-family: 'Merriweather', serif;
+    color: orange;
+
+
+}
+
+#navbar .logo span{
+    color: green;
+}
+
+
+#navbar .links{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    align-items: center;
+}
+
+#navbar .links ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+#navbar .links ul li{
+    padding: 0 25px;
+}
+
+#navbar .links ul li a{
     text-decoration: none;
-    font-size: 28px;
-    font-weight: 600;
-    color: #101820FF;
+    color: black;
+    font-weight: 500;
+    
 }
 
 /* banner */
 
 
-#banner{
-    height: 20vh;
-    background-color: #F7B733;
+
+.our-plans
+{
+    width: 100%;
+    height: 100%;
+    padding: 20px 0;
+
+}
+
+.our-plans h2{
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.our-plans p{
+    font-size: 22px;
+    text-align: center;
+}
+
+#bookings-plans 
+{
+    height: 100%;
+    width: 100%;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    color: white;
-    align-items: center;
+    justify-content: space-between;
+    padding: 40px 100px;
+    flex-wrap: wrap;
 }
-
-
-#banner h2{
-    font-size: 4rem;
-    padding-bottom: 30px;
-}
-
-#banner span{
-    font-size: 2.1rem;
-}
-
-/* Booking plans */
-#Booking-plans {
-   display: flex;
-   justify-content: space-between;
-   padding: 0 240px;
-   flex-wrap:wrap;
-
+#bookings-plans .plan-box{
+    height: 470px;
+    width: 350px;
+    /* border: 1px solid black; */
+    background-color: #ececec;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
    
 }
 
-#Booking-plans .box{
-    margin-top:100px;
-    
-    width: 500px;
-    height: 100%;
-    border:1px solid #ad8700;
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    box-shadow:20px 20px 34px rgb(0,0,0.2,0.33) ;
-    margin-bottom: 50px;
-    background-color: #EFEFEF;
-    
-  
-}
-
-.box .head{
-    height: 7vh;
-    width: 100%;
-    background-color:#F7B733;
+#bookings-plans .plan-box h2{
+    background-color: rgb(36, 171, 36);
+    color: white;
     text-align: center;
-    border-bottom: 2px solid black;
+    padding: 35px 4px;
+    border-bottom: 1px solid black;
 }
 
-.box .head h2{
-    padding-top: 10px;
+
+#bookings-plans .plan-box h3 span{
+
+    font-size: 25px;
+    color: #3a3a3a;
+    text-align: center;
+
+}
+
+#bookings-plans .plan-box h3 
+{
     font-size: 35px;
-    color: white;
+    color: Black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#bookings-plans .plan-box .body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+}
+
+#bookings-plans .plan-box ul
+{
+    list-style: none;
+    text-decoration: none;
+}
+#bookings-plans .plan-box ul li
+{
+    padding: 8px 0;
+}
+#bookings-plans .plan-box ul li h4{
+    text-align: center;
     font-weight: 600;
-
-
+    font-size: 16px;
 }
 
-.box .head p{
-    padding-top: 3px;
-    font-size: 20px;
-    font-weight: 400;
-    color: whitesmoke;
+#bookings-plans .plan-box ul hr{
+  height: 4px;
+  width: 80%;
+  display: block;
+  margin: auto;
+  
+   
 }
 
-
-.box h2{
-    font-size: 5rem;
-    padding-top: 40px;
-}
-
-.box h2 span{
-    font-size: 4rem;
-    color: grey;
-
-}
-
-.box span{
-    font-size: 2rem;
-    font-weight: 300;
-    padding-bottom: 30px;
-
-}
-
-
-.box li{
-    list-style: circle;
-    font-size: 2rem;
-    font-weight: 300;
-    padding-bottom: 15px;
-}
-
-.box ul{
-    padding-bottom: 20px;
-}
- 
-.box button{
-
-    padding: 10px 15px;
-    font-size: 20px;
-    font-weight: 500;
-    background-color: #ad00a7;
-    color: white;
-    border-radius: 6px;
-    margin-bottom:30px;
-
-}
 
 /* individual bookings */
 
