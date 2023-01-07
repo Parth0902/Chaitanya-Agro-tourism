@@ -325,8 +325,8 @@
 #provide .pro .pro-box img{
     height: 60%;
     width:100%;
-    border: 1px solid black;
-    border-radius: 12px;
+    /* border: 1px solid black; */
+    border-radius: 12px 12px 0 0;
 }
 #provide .pro .pro-box{
     width: 350px;
