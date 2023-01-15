@@ -1,0 +1,538 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+#navbar{
+   
+    height: 100%; 
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    margin-bottom: 10px;
+    align-items: center;
+   
+}
+
+
+#navbar .logo
+{
+    display: flex;
+    align-items: center;
+    width: 45%;
+}
+
+#navbar .logo img{
+    height: 80px;
+    padding: 0 15px;
+}
+
+#navbar .logo h2{
+    font-family: 'Merriweather', serif;
+    color: orange;
+
+
+}
+
+#navbar .logo span{
+    color: green;
+}
+
+.toggle-button{
+    position: absolute;
+    top: .95rem;
+    right: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    display: none;
+}
+
+.toggle-button .bar{
+  
+    height: 3px;
+    width: 100%;
+    background-color: #222;
+    border-radius: 10px;
+}
+
+#navbar .links{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+#navbar .links ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+#navbar .links ul li{
+    padding: 0 25px;
+}
+
+#navbar .links ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    
+}
+
+
+
+/* banner */
+
+
+
+.our-plans
+{
+    width: 100%;
+    height: 100%;
+    padding: 20px 0;
+
+}
+
+.our-plans h2{
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.our-plans p{
+    font-size: 22px;
+    text-align: center;
+}
+
+#bookings-plans 
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+    flex-wrap: wrap;
+}
+#bookings-plans .plan-box{
+    height: 730px;
+    width: 400px;
+    background-color: #ececec;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+   
+}
+
+#bookings-plans .plan-box h2{
+    background-color: rgb(36, 171, 36);
+    color: white;
+    text-align: center;
+    padding: 35px 4px;
+    border-bottom: 1px solid black;
+}
+
+
+#bookings-plans .plan-box h3 span{
+
+    font-size: 25px;
+    color: #3a3a3a;
+    text-align: center;
+
+}
+
+#bookings-plans .plan-box h3 
+{
+    font-size: 35px;
+    color: Black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#bookings-plans .plan-box .body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0;
+}
+
+#bookings-plans .plan-box ul
+{
+    list-style: none;
+    text-decoration: none;
+    padding: 30px 0;
+    
+}
+#bookings-plans .plan-box ul li
+{
+    padding: 12px 25px;
+}
+#bookings-plans .plan-box ul li h4{
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    padding-bottom: 8px;
+}
+
+#bookings-plans .plan-box ul li h5
+{
+    text-align: center;
+    padding-top: 4px;
+}
+#bookings-plans .plan-box ul li span{
+    font-size: 20px ;
+    color: black;
+}
+#bookings-plans .plan-box ul hr{
+  height: 4px;
+  width: 80%;
+  display: block;
+  margin: auto;
+   
+}
+
+
+/* individual bookings */
+
+#individual-Booking{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 86px;
+    flex-wrap:wrap;
+    background-color: #EFEFEF;
+ 
+    
+ }
+ #individual-Booking .ibox{
+     margin-top:100px;
+     width: 300px;
+     height: 480px;
+     display: flex;
+     /* justify-content: center; */
+     align-items: center;
+     flex-direction: column;
+     flex-wrap: wrap;
+     box-shadow:20px 20px 34px rgb(0,0,0.2,0.33) ;
+     margin-bottom: 50px;
+     
+     
+   
+ }
+
+ #individual-Booking .ibox img{
+    height: 100px;
+    padding-top: 8px;
+    padding-bottom: 12px;
+ }
+ 
+ .ibox .head{
+     height: 7vh;
+     width: 100%;
+     background-color:#FC4A1A;
+     text-align: center;
+     border-bottom: 2px solid black;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: white;
+     font-size: 22px;
+     font-weight: 500;
+ }
+
+ .ibox h4{
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 25px;
+ }
+
+ .ibox button{
+
+    padding: 8px 12px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #004AAD;
+    color: white;
+    border-radius: 6px;
+
+}
+
+
+
+#ID-pay{
+    margin-top: 16px;
+}
+.accordion .accordion-content{
+    margin: 10px 8px;
+    border-radius: 4px;
+    background: #83f370;
+    border: 1px solid #FFD6B3;
+    overflow: hidden;
+}
+.accordion-content:nth-child(2){
+    background-color: #F0FAFF;
+    border-color: #CCEEFF;
+}
+.accordion-content:nth-child(3){
+    background-color: #FFF0F3;
+    border-color: #FFCCD6;
+}
+.accordion-content:nth-child(4){
+    background-color: #F0F0FF;
+    border-color: #CCCCFF;
+}
+.accordion-content.open{
+    padding-bottom: 10px;
+}
+.accordion-content header{
+    display: flex;
+    min-height: 50px;
+    padding: 0 15px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.2s linear;
+}
+.accordion-content.open header{
+    min-height: 35px;
+}
+.accordion-content header .title{
+   
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+.accordion-content header i{
+    font-size: 15px;
+    color: #333;
+}
+.accordion-content .description{
+    height: 0;
+    font-size: 15px;
+    color: #333;
+    font-weight: 600;
+    padding: 0 15px;
+    transition: all 0.2s linear;
+}
+.accordion-content .description span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 6px;
+
+}
+ 
+.spe{
+    position: relative;
+    top: 49px;
+}
+
+
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 80px;
+    background-color:#B2BEB5;
+}
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+   
+  
+}
+footer .col .l2{
+    height: 200px;
+}
+
+footer h4
+{
+    font-size:14px ;
+    padding-bottom: 20px;
+}
+
+footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+footer a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+footer .follow{
+    margin-top: 20px;
+
+}
+footer .follow i{
+    color: black;
+    padding-right:4px;
+    cursor: pointer;
+}
+
+footer .payment .im{
+    height: 80px;
+
+}
+.credit{
+    text-align: center;
+    background-color: #222;
+}
+
+.credit,.t1 p
+{
+    color: white;
+}
+
+
+.t1{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+@media(max-width:799px)
+{
+
+    #navbar .logo {
+        display: flex;
+        align-items: center;
+        width: 100%;
+       
+    }
+
+    .toggle-button{
+        display: flex;
+    }
+    
+    #navbar .logo h2 {
+      display: none;
+    }
+
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+ 
+
+    #navbar .links {
+      
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 15px;
+        display: none;
+        
+    }
+    #navbar .active1{
+        display: flex;
+    }
+    
+    #navbar .links ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   
+    #navbar .links ul li {
+        padding: 4px 25px;
+    }
+
+    
+}
+   
+@media(max-width:850px)
+{
+    #bookings-plans {
+      
+        justify-content: center;
+        
+    }
+    #bookings-plans .plan-box {
+      margin: 15px 0;
+    }
+    #individual-Booking {
+       
+        justify-content: center;
+      
+    }
+
+    #individual-Booking .ibox {
+       margin: 10px 15px;
+    }
+}
+
+
+@media(max-width:504px)
+{
+    #bookings-plans .plan-box ul li h4 {
+       
+        font-size: 14px;
+        
+    }
+    #bookings-plans .plan-box ul li h5 {
+        text-align: center;
+        padding-top: 4px;
+        font-size: 11px;
+    }
+
+    .accordion-content header .title {
+        font-size: 15px;
+       
+    }
+    .accordion-content .description span {
+       font-size: 13px;
+    }
+    #bookings-plans {
+      
+        padding: 40px 30px;
+        
+    }
+    
+    #individual-Booking {
+       
+        padding: 0 30px;
+        
+    }
+}
+
+@media(max-width:1300px)
+{
+    #bookings-plans {
+        
+        justify-content: center;
+        padding: 40px 60px;
+        flex-wrap: wrap;
+    }
+    #bookings-plans .plan-box {
+        margin: 12px 13px;
+    }
+}
+
+@media(max-width:600px)
+{
+    #bookings-plans {
+        justify-content: center;
+        padding: 40px 10px;
+        flex-wrap: wrap;
+    }
+}
