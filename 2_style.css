@@ -86,10 +86,17 @@
 
 #navbar .links ul li a{
     text-decoration: none;
-    color: black;
     font-weight: 500;
+    color: #222;
     
 }
+
+ #navbar .links ul li a:hover{
+
+    font-size: 18px;
+    font-weight: 600;
+    color: red;
+} 
 
 
 
