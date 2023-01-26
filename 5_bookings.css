@@ -269,6 +269,8 @@
 #ID-pay{
     margin-top: 16px;
 }
+
+
 .accordion .accordion-content{
     margin: 10px 8px;
     border-radius: 4px;
@@ -402,6 +404,7 @@ footer .payment .im{
 .t1{
     display: flex;
     justify-content: space-around;
+    padding: 25px 0;
 
 }
 

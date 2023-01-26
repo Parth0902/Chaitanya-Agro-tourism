@@ -471,6 +471,13 @@ footer .payment .im{
 }
 /* media queries */
 
+@media(max-width:400px)
+{
+    #activities {
+       display: none;
+    }
+}
+
 @media(max-width:799px)
 {
 
@@ -774,3 +781,5 @@ box-shadow: 20px 20px 34px rgb(0,0,0,0.33);
         background-color: #B2BEB5;
     }
   }
+
+ 
